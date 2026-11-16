@@ -6,7 +6,7 @@ for i in {1..10}
 do
     response=$(curl -s http://localhost:8000)
 
-    if [ "$response" = "Hello from CI/CD - Version 2" ]; then
+    if [ "$response" = "Hello from CI/CD - Version 22" ]; then
         echo "TEST PASSED"
         exit 0
     fi
